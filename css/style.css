@@ -103,13 +103,13 @@ a img{ border: none;}
 
 /*****************************************************   ALL  *****************************************************/
 
-.txtred{ color: #d62c35;}
+/*.txtred{ color: #d62c35;}
 
-.bgRed{ background: #d62c35;}
+.bgRed{ background: #d62c35;}*/
 
 
 header{
-	border-top: 3px solid #d62c35; 
+	border-top: 3px solid #08285f; 
 	padding-top: 9px;
 	height: auto;
 	}
@@ -219,7 +219,7 @@ header{
 	.base_line{
 		float: left;
 		padding: 41px 0 0 33px;
-		color: #756e75;
+		color: #08285f;
 		font-size: 30px;
 		line-height: 15px;
 		font-family: 'citroenregular', Arial, Helvetica, sans-serif;
@@ -228,6 +228,12 @@ header{
 		}
 	.base_line span{ 
 		font-size: 18px;
+		display: block;
+		border-top: 1px solid #08285f;
+		border-bottom: 1px solid #08285f;
+		padding: 3px 0;
+		margin-top: 10px;
+		color:#65a5bf;
 		}
 	.searchBar{ 
 		float: right;
@@ -265,12 +271,12 @@ header{
 			cursor: pointer;
 			text-decoration: none;
 			color: #ffffff;
-			background: url(../images/icone_loupe.png) no-repeat center #d62c35 ;
+			background: url(../images/icone_loupe.png) no-repeat center #08285f ;
 			border: none;
 		}
 		.btn_searchBar:hover {
 			text-decoration: none;
-			background:url(../images/icone_loupe.png) no-repeat center #b50020;
+			background:url(../images/icone_loupe.png) no-repeat center #0a337a;
 		}
 		/* Fixes submit button height problem in Firefox */
 		.btn_searchBar::-moz-focus-inner {
@@ -287,7 +293,7 @@ header{
 		height: 32px;
 		margin: 21px auto 11px;
 		border-top: solid 1px #d2d0d2;
-		border-bottom: solid 1px #d62c35;
+		border-bottom: solid 1px #08285f;
 		font-size: 14px;
 		font-family: 'citroenregular', Arial, Helvetica, sans-serif;
 		font-weight: normal;
@@ -320,7 +326,7 @@ header{
 			background: url(../images/bg_navigation.jpg) no-repeat 10px bottom;
 			}
 			ul.nav-main li:hover a{
-				color:#d62c35;
+				color:#08285f;
 				}
 			
 			ul.nav-main li { /*positionnement, dimensions, couleurs et textes des items de liste*/
@@ -343,7 +349,7 @@ header{
 			}
 			
 			ul.nav-main li a:hover, ul.nav-main li.active a  { /* couleurs des items de liste au survol*/
-			color:#d62c35;
+			color:#08285f;
 			}
 			
 			ul.nav-main *.list { /*décalage entre chaque items principaux*/
@@ -356,8 +362,8 @@ header{
 			top: 33px;
 			left: 10px;
 			z-index: 598;
-			background: #d62c35;
-			border-bottom: 1px solid #c41a20;
+			background: #08285f;
+			border-bottom: 1px solid #15469b;
 		    -moz-box-shadow:    1px 2px 3px -2px #000;
 		    -webkit-box-shadow: 1px 2px 3px -2px #000;
 		    box-shadow:         1px 2px 3px -2px #000;
@@ -371,7 +377,7 @@ header{
 			height: auto;
 			float: none;
 			width:160px;
-			border-bottom: 1px solid #da4149;
+			border-bottom: 1px solid #185acb;
 			border-right:none;
 			background: none;
 			clear: both;
@@ -387,13 +393,13 @@ header{
 			width:160px;
 			background: none;
 			font: 11px Arial, Helvetica, sans-serif;
+			border-bottom: 1px solid #09234f;
 			text-transform: none;
-			border-bottom: 1px solid #c41a20;
 			}
 			
 			ul.nav-sub li a:hover  {
 				color: #FFF;
-				background: #cb1f2e;}
+				background: #0f4094;}
 			
 			ul.nav-main li:hover ul.nav-sub li a{color: #FFF;}
 			
@@ -435,7 +441,7 @@ section{
 
 /********* ZONE DROITE SLIDER ****************/
 .banner .banner_right{
-	background: #d62c35;
+	background: #569eba;
 	color: #FFF;
 	width: 384px;
 	height: 330px;
@@ -467,7 +473,7 @@ section{
 	}
 	
 .banner .banner_right .btn_learnmore{
-	color: #d62c35;
+	color: #569eba;
 	background: #fff;
 	text-decoration: none;
 	padding:7px 45px;
@@ -545,7 +551,7 @@ section{
 	display: inline-block;}
 
 #edito .btn_learnmore{
-	color: #d62c35;
+	color: #569eba;
 	background: #fafafa;
 	border: solid 1px #e5e7e9;
 	text-decoration: none;
@@ -566,43 +572,46 @@ section{
 
 #MEA .wrapper .group1 {
 	margin-top: 10px;
+	padding-bottom: 16px;
 	display: inline-block;
 	}
 
 /************* MEA 4 COLONNE ******************/
-#MEA .wrapper .group1 .item{
+#MEA .wrapper .group1   .item{
 	width: 183px;
-	height: 163px;
-	background: url(../images/BG_triangle_white.png) no-repeat top center #e5e7e9;
+	height: 158px;
+	background: url(../images/BG_triangle_white.png) no-repeat top center #fafafa;
 	padding: 34px 18px 18px;
 	float: left;
 	margin-left: 20px;
 	}
 	
-#MEA .wrapper .group1 .item.first{
+#MEA .wrapper .group1   .item.first{
 	margin-left: 0;
 	}
 	
-#MEA .wrapper .group1 .item h2{
-	font: 24px 'citroenlight', Arial, Helvetica, sans-serif;
+#MEA .wrapper .group1   .item h2{
+	font: 18px 'citroenregular', Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
-	color: #d62c35;
+	color: #569eba;
 	text-align: center;
+	border-top: 1px solid #08285f;
+	border-bottom: 1px solid #08285f;
 	}
 
-#MEA .wrapper .group1 .item p{
+#MEA .wrapper .group1   .item p{
 	font: 12px/18px Arial, Helvetica, sans-serif;
 	color: #302b28;
 	padding: 4px 0 17px;
 	text-align: justify;
 	}
 
-#MEA .wrapper .group1 .item .btn_learnmore{
-	color: #d62c35;
-	background: #fafafa;
+#MEA .wrapper .group1   .item .btn_learnmore{
+	color: #569eba;
+	background: #f0f0f0;
 	border: solid 1px #FFFFFF;
 	text-decoration: none;
-	padding:7px 45px;
+	padding:5px 45px;
 	border-radius: 20px;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
@@ -611,47 +620,55 @@ section{
 	text-transform: uppercase;
 	white-space: nowrap;
 	}
-#MEA .wrapper .group1 .item .btn_learnmore:hover{
+#MEA .wrapper .group1   .item .btn_learnmore:hover{
 	background: #fff;
 }
 
+#MEA .bg_group1{
+	background: #e5e7e9;
+}
+
 /************* MEA 3 COLONNES  ******************/
-#MEA .wrapper .group2 {
-	margin: 24px 0 31px 0;
+#MEA .wrapper .group2  {
+	margin: 20px 0 15px 0;
 	display: inline-block;
 	}
 
-#MEA .wrapper .group2 .item{
+#MEA .wrapper .group2  .item{
 	width: 261px;
 	height: 145px;
 	background: #fff;
-	padding: 18px;
+	padding: 5px 18px 27px 18px;
 	float: left;
 	margin-left: 20px;
 	border: solid 1px #edeeef;
 	}
-	
-#MEA .wrapper .group2 .item.first{
+#MEA .wrapper .group2 .mea_group2_bg_top{
+	height: 5px;
+	width:30px;
+	background: #569eba;
+}
+#MEA .wrapper .group2  .item.first{
 	margin-left: 0;
 	}
 
 
-#MEA .wrapper .group2 .item h3{
+#MEA .wrapper .group2  .item h3{
 	margin-bottom: 6px;
 	}
 			
-#MEA .wrapper .group2 .item h3, #MEA .wrapper .group2 .item h3 a{
-	font: 18px 'citroenlight', Arial, Helvetica, sans-serif;
+#MEA .wrapper .group2  .item h3, #MEA .wrapper .group2  .item h3 a{
+	font: 18px 'citroenregular', Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
-	color: #756e75;
+	color: #08285f;
 	text-decoration: none;
 	}
 
-#MEA .wrapper .group2 .item a.picture{
+#MEA .wrapper .group2  .item a.picture{
 	float: left;
 	}
 
-#MEA .wrapper .group2 .item p{
+#MEA .wrapper .group2  .item p{
 	font: 12px Arial, Helvetica, sans-serif;
 	color: #756e75;
 	margin-left: 16px;
@@ -660,7 +677,7 @@ section{
 	width: 125px;
 	}
 
-#MEA .wrapper .group2 .item p a{
+#MEA .wrapper .group2  .item p a{
 	font: 12px/15px Arial, Helvetica, sans-serif;
 	color: #756e75;
 	text-decoration: none;
