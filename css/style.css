@@ -863,8 +863,8 @@ footer{
 	}
 	
 #nav_theme .wrapper a.active{
-	color: #d62c35;
-	border: solid 2px #d62c35;
+	color: #08285f;
+	border: solid 2px #38527e;
 	}
 	
 #nav_theme .wrapper  .btn_theme{
@@ -969,7 +969,7 @@ ul.btn_txt li a.btn_print{
 	}
 
 #Article_3_col .wrapper  nav.nav_rubrique h2{
-	background: #756e75;
+	background: #569eba;
 	font: 18px 'citroenlight', Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	color: #fafafa;
@@ -1004,7 +1004,7 @@ ul.btn_txt li a.btn_print{
 	border: none;
 	}
 #Article_3_col .wrapper  nav.nav_rubrique .active{
-	color: #d62c35;
+	color: #08285f;
 	cursor: default;
 	padding-bottom: 5px;
 	}
@@ -1056,7 +1056,7 @@ section.col_center article h2{
 	}
 	
 section.col_center article h2.red{
-	color: #d62c35;
+	color: #08285f;
 	}
 	
 section.col_center article p.intro{
@@ -1084,23 +1084,27 @@ section.col_center article p img{
 	}
 #Article_3_col aside div{
 	width: 140px;
-	background: #e4dbc9;
+	background: #c7e9fb;
 	box-sizing: border-box;
 	padding: 10px 10px 20px 10px;
 	margin-top: 20px;
 	}
 #Article_3_col aside div.bg_gray{
-	background: #756e75;
+	background: #73b7d6;
 	}
 #Article_3_col aside div.bg_gray h3{
-	font: 18px 'citroenregular', Arial, Helvetica, sans-serif;
+	font: 16px 'citroenbold', Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
-	color: #fafafa;
+	color: #302b28;
+	border-top: 1px solid #302b28;
+	border-bottom: 1px solid #302b28;
 	}
 #Article_3_col aside div h3{
-	font: 18px 'citroenregular', Arial, Helvetica, sans-serif;
+	font: 16px 'citroenbold', Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	color: #191919;
+	border-top: 1px solid #302b28;
+	border-bottom: 1px solid #302b28;
 	} 
 #Article_3_col aside div p{
 	font: 12px Arial, Helvetica, sans-serif;
@@ -1171,7 +1175,7 @@ section.col_left article .btn_back_blog.position_bottom{
 	bottom: 11px;
 	}
 .lien_red{
-	color:#d62c35;
+	color:#569eba;
 	text-decoration: underline;
 	}
 	
@@ -1391,7 +1395,7 @@ section.col_left .content_comment{
 				border: solid 1px #efeeef;
 				display: block;
 				font: 11px 'citroenregular', Arial, Helvetica, sans-serif;
-				color: #d62c35;
+				color: #569eba;
 				text-decoration: none;
 				text-transform: uppercase;
 				text-align: center;
@@ -1485,7 +1489,7 @@ section.col_left .content_comment{
 							
 
 #Article_2_col aside .bloc_red{
-	background: #d62c35;
+	background: #569eba;
 	width: 220px;
 	box-sizing: border-box;
 	padding: 20px 20px 12px 20px;
@@ -1495,11 +1499,11 @@ section.col_left .content_comment{
 #Article_2_col aside .bloc_red h3{
 	font: 24px 'citroenlight', Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
-	color: #f3dcdc;
+	color: #e0e9ee;
 	}
 #Article_2_col aside .bloc_red p{
 	font: 12px Arial, Helvetica, sans-serif;
-	color: #f3dcdc;
+	color: #e0e9ee;
 	padding: 15px 0 20px 0;
 	}
 	
@@ -1507,7 +1511,7 @@ section.col_left .content_comment{
 	display: block;
 	width: 78px;
 	margin: 0 auto;
-	color: #d62c35;
+	color: #569eba;
 	background: #fff;
 	text-decoration: none;
 	padding:7px 45px;
@@ -1534,7 +1538,7 @@ section.col_left .content_comment{
 	}
 	
 #banner_1col .wrapper .banner_img.blog .btn_learnmore{
-	color: #d62c35;
+	color: #65a5bf;
 	background: #fff;
 	text-decoration: none;
 	padding:7px 45px;
@@ -1658,7 +1662,7 @@ section.col_left .content_comment{
 	border: solid 1px #efeeef;
 	display: block;
 	font: 11px 'citroenregular', Arial, Helvetica, sans-serif;
-	color: #d62c35;
+	color: #65a5bf;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
@@ -1694,7 +1698,7 @@ section.col_left .content_comment{
 }
 
 .col_left article #pagination .active a {
-  color: #d62c35;
+  color: #65a5bf;
 }
 
 .col_left article  #pagination .btn {
@@ -1751,7 +1755,7 @@ a {
 
 #login {
   margin-top: 60px;
-  background: #d62c35;
+  background: #569eba;
   padding: 20px 0 15px 0;
   font-size: 18px;
   margin-bottom: 120px;
@@ -1791,10 +1795,10 @@ a {
   text-align: center;
   margin: 0 auto;
   margin-top: 30px;
-  color: #d62c35;
+  color: #569eba;
   background: #fff;
   text-decoration: none;
-  padding: 5px 45px;
+  padding: 3px 50px;
   text-transform: uppercase;
   border-radius: 20px;
   font-size: 14px;
@@ -1803,7 +1807,7 @@ a {
 }
 
 #login input[type=submit]:hover {
-  color: #b50020;
+  color: #417a90;
 }
 
 #login input[type=text],
@@ -1915,10 +1919,10 @@ a {
 #rubrique .slider .sous-rubrique hr,
 #documentaire .slider .sous-rubrique hr {
   margin: 6px 0;
-  border-bottom: 1px solid #CE3D42;
-  border-top: 1px solid #a7161b;
-  border-left: 1px solid #a7161b;
-  border-right: 1px solid #a7161b;
+  border-bottom: 1px solid #5793af;
+  border-top: 1px solid #306c88;
+  border-left: 1px solid #306c88;
+  border-right: 1px solid #306c88;
 }
 
 #rubrique .slider .sous-rubrique ul,
@@ -1943,7 +1947,7 @@ a {
 
 #rubrique #MEA,
 #documentaire #MEA {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 #rubrique #MEA .icon-sous-rubrique,
@@ -1987,6 +1991,11 @@ a {
   height: 195px;
 }
 
+.documentaire-mea-bg{
+	background-color: #e5e7e9;
+	margin-bottom: 25px;
+}
+
 #documentaire p {
   margin: 4px 0;
 }
@@ -2007,7 +2016,7 @@ a {
 }
 
 #recherche .block-recherche {
-  background: #d62c35;
+  background: #569eba;
   height: 120px;
   margin-bottom: 18px;
   position: relative;
@@ -2017,12 +2026,12 @@ a {
   font-size: 14px;
   text-align: center;
   font-weight: normal;
-  color: #f3dbdb;
+  color: #e0e9ee;
   padding: 20px 0 10px 0;
 }
 
 #recherche .block-recherche input[type=text] {
-  border: 1px solid #c72831;
+  border: 1px solid #3e7a9f;
   border-right: 0;
   display: block;
   float: left;
@@ -2035,7 +2044,7 @@ a {
 #recherche .block-recherche input[type=submit] {
   display: block;
   float: left;
-  border: 1px solid #c72831;
+  border: 1px solid #3e7a9f;
   border-left: 0;
   font-size: 16px;
   height: 43px;
@@ -2178,7 +2187,7 @@ a {
 #recherche .bloc_resultat a {
   font-family: 'citroenitalic', Arial, Helvetica, sans-serif;
   font-size: 14px;
-  color: #d62c35;
+  color: #569eba;
   display: inline-block;
   margin: 15px 0;
 }
@@ -2200,7 +2209,7 @@ a {
 }
 
 #recherche #pagination .active a {
-  color: #d62c35;
+  color: #569eba;
 }
 
 #recherche #pagination .btn {

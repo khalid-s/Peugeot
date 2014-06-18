@@ -864,7 +864,7 @@ body .ui-tooltip {
 	border-bottom: 0;
 	/*background: #ffffff url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;*/
 	font-weight: normal;
-	color: #d62c35;
+	color: #08285f;
 }
 .ui-state-active a,
 .ui-state-active a:link,
@@ -953,11 +953,11 @@ body .ui-tooltip {
 	background-image: url(images/ui-icons_454545_256x240.png);
 }*/
 .ui-state-active .ui-icon {
-	border: solid 1px #d62c35;
+	border: solid 1px #08285f;
 	background:url(../images/icon_less.png) no-repeat center;
 	/*background-image: url(images/ui-icons_454545_256x240.png);*/
 	font: 24px 'citroenlight', Arial, Helvetica, sans-serif;
-	color: #d62c35;
+	color: #08285f;
 }
 
 
