@@ -210,15 +210,15 @@ header{
 
 .Header_2{
 	width: 940px;
-	height: 79px;
+	height: 76px;
 	margin: 0 auto; 
 	}
-	.logo-citroen{ 
+	.logo-citroen img{ 
 		float: left;
 		}
 	.base_line{
 		float: left;
-		padding: 41px 0 0 33px;
+		padding: 28px 0 0 33px;
 		color: #08285f;
 		font-size: 30px;
 		line-height: 15px;
@@ -231,7 +231,7 @@ header{
 		display: block;
 		border-top: 1px solid #08285f;
 		border-bottom: 1px solid #08285f;
-		padding: 3px 0;
+		padding: 4px 0;
 		margin-top: 10px;
 		color:#65a5bf;
 		}
@@ -290,10 +290,10 @@ header{
 /********************************* NAVIGATION ******************************************/
 	.navigation{
 		width: 940px;
-		height: 32px;
-		margin: 21px auto 11px;
+		height: 30px;
+		margin: 17px auto 11px;
 		border-top: solid 1px #d2d0d2;
-		border-bottom: solid 1px #08285f;
+		border-bottom: solid 2px #08285f;
 		font-size: 14px;
 		font-family: 'citroenregular', Arial, Helvetica, sans-serif;
 		font-weight: normal;
@@ -324,6 +324,7 @@ header{
 			z-index: 599;
 			cursor: pointer;
 			background: url(../images/bg_navigation.jpg) no-repeat 10px bottom;
+			height: 30px;
 			}
 			ul.nav-main li:hover a{
 				color:#08285f;
@@ -488,7 +489,7 @@ section{
 	}
 	
 .banner .banner_right .btn_learnmore:hover{
-	color: #b50020;
+	color: #498fa9;
 }
 	
 /************ PUCE SLIDER ***********/
@@ -621,7 +622,7 @@ section{
 	white-space: nowrap;
 	}
 #MEA .wrapper .group1   .item .btn_learnmore:hover{
-	background: #fff;
+	background: #ececec;
 }
 
 #MEA .bg_group1{
@@ -686,10 +687,36 @@ section{
 	}
 
 
+/************* MEA 2 COLONNES  ******************/
+#MEA .two-col .wrapper .group1{
+	width:940px;
+	padding-bottom: 26px;
+	}
+	#MEA .two-col .wrapper .group1 .item .icon-sous-rubrique-two-col{
+		width:424px;
+		height: 90px;
+	}
+	#MEA .two-col .wrapper .group1 .item .icon-sous-rubrique-two-col img{
+		vertical-align: bottom;
+		margin:18px 0 0 184px;
+	}
+	#MEA .two-col .wrapper .group1 .item p{
+		margin:18px 0 13px 0;
+	}
+	#MEA .two-col .wrapper .group1 .item{
+	height: 312px;
+	width:424px;
+	margin: 0;
+}
+	#MEA .two-col .wrapper .group1 .item:first-child{
+	margin-right: 20px;
+}
+
 /*************   FOOTER   ****************/
 footer{
 	width: 100%;
 	display: inline-block;
+	margin-top: -17px;
 	}
 
 .footer_1{
@@ -854,7 +881,7 @@ footer{
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-khtml-border-radius: 5px;
-	padding: 10px 34px;
+	padding: 6px 34px;
 	margin: 10px 0 0 20px; 
 	}
 #nav_theme .wrapper a:hover{
@@ -987,11 +1014,11 @@ ul.btn_txt li a.btn_print{
 	}
 #Article_3_col .wrapper  nav.nav_rubrique ul li a{
 	text-decoration: none;
-	font: 14px 'citroenlight', Arial, Helvetica, sans-serif;
+	font: 14px 'citroenregular', Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	color: #756e75;
 	display: block;
-	padding: 10px 0 10px 20px;
+	padding: 8px 0 8px 20px;
 	border-bottom: solid 1px #cecfd1;
 	}
 
@@ -1011,7 +1038,7 @@ ul.btn_txt li a.btn_print{
 	#Article_3_col .wrapper  nav.nav_rubrique ul.subnav{
 		background: #FFF;
 		border-bottom: solid 1px #cecfd1;
-		padding-bottom: 20px;
+		padding-bottom: 14px;
 		}
 	#Article_3_col .wrapper  nav.nav_rubrique ul.subnav li{
 		border: none;
@@ -1035,6 +1062,13 @@ ul.btn_txt li a.btn_print{
 	background: #FFF;
 	float: left;
 	margin-bottom: 40px;
+	}
+#Article_3_col .col_center article h3{
+	font-family: 'citroenregular', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #569eba;
+	margin-bottom: 10px;
 	}
 	
 section.col_center article span{
@@ -1069,10 +1103,13 @@ section.col_center article p{
 	color: #756e75;
 	display: inline-block;
 	padding-bottom: 15px;
+	line-height: 19px;
 	}
 section.col_center article p img{
 	float: left;
-	padding-right: 10px;}                        	
+	padding-right: 10px;
+
+}                        	
 
 
 
@@ -1145,7 +1182,7 @@ section.col_center article p img{
 	position: relative;
 	width: 700px;
 	float: left;
-	margin-bottom: 30px;
+	margin-bottom: 38px;
 	}
 section.col_left article .btn_back_blog{
 	color: #b8b7b8;
@@ -1190,6 +1227,9 @@ section.col_left article h1{
 	font: 48px 'citroenlight', Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	color: #191919;
+	position: relative;
+	line-height: 40px;
+	top: -5px;
 	}
 	
 section.col_left article h2{
@@ -1206,7 +1246,8 @@ section.col_left article h2.red{
 section.col_left article p.intro{
 	font: 18px 'citroenregular', Arial, Helvetica, sans-serif;
 	color: #191919;
-	padding: 10px 0 30px 0;
+	padding: 0px 0 18px 0;
+	line-height: 18px;
 	}
 section.col_left article p{
 	font: 12px Arial, Helvetica, sans-serif;
@@ -1216,9 +1257,14 @@ section.col_left article p{
 	}
 section.col_left article p img{
 	float: left;
-	padding-right: 10px;}   					
+	padding: 0px 20px 5px 0;}   					
 							
-
+section.col_left .blog_content p{
+	margin: 8px 0;
+	line-height: 18px;
+}section.col_left .blog_content p:first-child{
+	margin-top: 0;
+}
 
 
 /********************** ZONE COMMENT *************************/
@@ -1227,7 +1273,7 @@ section.col_left .content_comment{
 	width: 700px;
 	}
 	section.col_left .content_comment .header_comment{
-		height: 40px;
+		height: 37px;
 		width: 700px;
 		padding: 7px 0 7px 20px;
 		border-top: solid 1px #cdcdcd;
@@ -1275,6 +1321,10 @@ section.col_left .content_comment{
 			border: solid 1px #b0b0b0;
 			}
 		/***************** BLOG TEXTAREA ********/
+
+		.special-textarea{
+			margin-top: 18px;
+		}
 
 		.clear{clear:both;}
 		textarea{
@@ -1557,7 +1607,7 @@ section.col_left .content_comment{
 
 
 #Article_2_col .col_left .article_pagination{
-	padding-bottom: 10px;}
+	padding-bottom: 5px;}
 
 .col_left article hr {
   margin: 10px 0;
@@ -1567,7 +1617,7 @@ section.col_left .content_comment{
 }
 .col_left article hr.dotted {
   margin: 0;
-  margin-top: -2px;
+  margin-top: -7px;
   border: none;
   border-bottom: dashed 1px #e9e9e9;
   
@@ -1622,7 +1672,7 @@ section.col_left .content_comment{
 }
 
 .col_left article .actu {
-  padding: 10px 0 17px 0;
+  padding: 18px 0 17px 0;
   border-bottom: solid 1px #e9e9e9;
   display: inline-block;
 }
@@ -1666,8 +1716,8 @@ section.col_left .content_comment{
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 7px ;
-	padding:5px 37px;
+	margin-top: -4px ;
+	padding:4px 37px;
 	float: right;
 	border-radius: 20px;
 	-moz-border-radius: 20px;
@@ -1679,6 +1729,8 @@ section.col_left .content_comment{
   width: 420px;
   margin: 0 auto;
   padding: 7px 0 15px 0;
+  margin-top: 29px;
+  margin-bottom: 58px;
 }
 
 .col_left article #pagination span{
@@ -1872,7 +1924,7 @@ a {
 #documentaire .slider .texte {
   position: absolute;
   bottom: 0;
-  margin: 10px 0 20px 15px;
+  margin: 10px 0 29px 15px;
   color: #fafafa;
   font-size: 12px;
   font-family: 'citroenlight', Arial, Helvetica, sans-serif;
@@ -1983,6 +2035,11 @@ a {
   background: #f0f0f0;
 }
 
+#rubrique #MEA .btn_learnmore:hover,
+#documentaire #MEA .btn_learnmore:hover{
+  background: #ececec;
+}
+
 /* ---------------------PAGE DOCUMENTAIRE-------------------- */
 
 
@@ -2009,7 +2066,7 @@ a {
 }
 
 #recherche hr {
-  margin: 10px 0;
+  margin: 7px 0;
   color: #e9e9e9;
   border-top: 1px solid #e9e9e9;
   border-left: 1px solid #e9e9e9;
@@ -2112,7 +2169,10 @@ a {
   font-size: 14px;
   color: #c2c2c2;
 }
-
+#recherche #champs{
+	margin-bottom: 27px;
+	padding-top: 3px;
+}
 #recherche #champs .select {
   display: inline-block;
   height: 28px;
@@ -2177,7 +2237,7 @@ a {
 }
 
 #recherche .bloc_resultat p {
-  margin-top: 18px;
+  margin-top: 13px;
   font-size: 12px;
   line-height: 18px;
   font-family: Arial, Helvetica, sans-serif;
